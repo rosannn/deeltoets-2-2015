@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width" />
+        
+		<title>Formulier</title>
+		<link rel="stylesheet" href="formulier.css">
+		<script src="formulier.js"></script>
+	</head>
+
+	<body>
+			<header>
+					<h1>
+						CMD Amsterdam - Intranet
+					</h1>
+
+					<p>
+						Communication and Multimedia Design is een ontwerpopleiding voor interactieve media in Amsterdam.
+					</p>
+
+					<section>
+						<img src="afb/cmd1.png" alt="letter c">
+						<img src="afb/cmd2.png" alt="letter m">
+						<img src="afb/cmd3.png" alt="letter d">
+					</section>
+
+					<nav>
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Opleiding</a></li>
+							<li><a href="#">Onderwijsprogramma</a></li>
+							<li><a href="#">Organisatie</a></li>
+							<li><a href="#">Stages en projecten</a></li>
+						</ul>
+					</nav>
+
+					<form>
+						<input type="text" placeholder="zoek en klik">
+					</form>
+
+					<a href="#">profielpagina Elena Harris</a>
+			</header>
+
+			<section>
+					<h1> Aanmelden </h1>
+					<p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan! Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. OOk lopen de studenten stage, in het tweede en afstudeerjaar. </p>
+
+					<i>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad amsterdam. </i>
+
+					<p> Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact nadat het formulier is verstuurd. Voor vragen of opmerkingen kunt u <a href="info-cmd@hva.nl.">contact</a> met ons opnemen. </p>
+			</section>
+		
+			<fieldset>
+					<legend>Contactgegevens</legend>
+
+						<label for="naam">Naam</label>
+						<input type="text" name="Naam" id="naam">
+						<label for="bedrijf">Bedrijf</label>
+						<input type="text" name="Bedrijf" id="bedrijf">
+						<label for="adres">Adres</label>
+						<input type="text" name="Adres" id="adres">
+						<label for="postcode">Postcode</label>
+						<input type="text" name="Postcode" id="postcode" placeholder="bijv: 1234HS">
+						<label for="plaats">Plaats</label>
+						<input type="text" name="Plaats" id="plaats">
+						<label for="telefoon">Telefoon</label>
+						<input type="phone" name="Telefoon" id="telefoon">
+						<label for="email">E-mail</label>
+						<input type="email" name="Email" id="email">
+
+			</fieldset>
+
+			<fieldset>
+				<h2>Ik wil mij aanmelden</h2>
+				<label for="radio1">voor een project </label>
+				<input type="radio" name="radio1" id="radio1">
+				<label for="radio2">als stagebedrijf </label>
+				<input type="radio" name="radio2" id="radio2"><br>
+				<i><b>Let op!</b>Vul het formulier in van de keuze die u heeft gemaakt</i>
+
+			</fieldset>
+
+
+			<fieldset>
+				
+						<fieldset>Project</fieldset>
+					
+							<label for="titel">1.Titel</label>
+							<input type="text" name="titel" id="titel"> 	   					
+							<label for="opdracht">2. Opdrachtomschrijving </label>
+							<textarea name="textarea" id="opdracht"></textarea>							
+							<label for="doelgroep">3. Doelgroepomschrijving </label>
+							<textarea name="textarea" id="doelgroep"></textarea>								
+							<label for="doelstelling">4. Doelstelling/intentie van het project</label>
+							<textarea name="textarea" id="doelstelling"></textarea>
+							<label for="looptijd">5. Looptijd</label>
+							<input type="text" name="Looptijd" id="looptijd"> 
+							<label for="deadline">6. Deadline</label>
+							<select name="deadline" id="deadline">	
+							<option selected="selected" value="mm">MM</option>
+							<option value="01">01</option>
+							<option value="02">02</option>
+							<option value="03">03</option>
+							<option value="04">04</option>
+							<option value="05">05</option>
+							<option value="06">06</option>
+							<option value="07">07</option>
+							<option value="08">08</option>
+							<option value="09">09</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+
+							</select> /
+							<select name="einddatum">
+							<option value="jjjj">JJJJ</option>
+							<option value="2014">14</option>
+							<option value="2015">15</option>
+							<option value="2016">16</option>
+							<option value="2017">17</option>
+							<option value="2018">18</option>
+							<option value="2019">19</option>
+							<option value="2020">20</option>
+							<option value="2021">21</option>
+							<option value="2022">22</option> 
+							</select>
+				</fieldset>	
+				<fieldset>
+						<legend> Stage </legend>
+							Geschikt voor
+							<select id="keuze"> 
+								<option selected="selected" value="Onbekend">onbekend</option>
+								<option value="tweede">tweedejaars studenten</option>
+								<option value="afstudeer">afstudeer studenten</option>
+							</select>  
+							1.Hoe lang is de stage?
+							<label>10 weken</label>
+							<input type="radio" name="radio1" value="tien">
+							<label>20 weken
+							<input type="radio" name="radio2" value="twintig">
+							</label> 
+							2. Begin datum
+							<input type="date">
+						
+							Geschikt voor
+							<select id="keuze" naam="keuze">
+								<option selected="selected" value="Onbekend">onbekend</option>
+								<option value="tweede">tweedejaars studenten</option>
+								<option value="afstudeer">afstudeer studenten</option>
+								<option value="tweede">derdejaars studenten</option>
+								<option value="afstudeer">eerstejaars studenten</option>
+						
+							1. Beschrijving stagewerkzaamheden 
+							<textarea name="textarea"></textarea>
+					
+							<h1>Beschrijving stagebedrijf:</h1>
+							<label for="bedrijf">1.Bedrijfsnaam</label>
+							<input type="text" name="Bedrijf" id="bedrijf"> 
+							<label for="adres">2.Adres</label>
+							<input type="text" name="Adres" id="adres"> 
+							<label for="post">3.Postcode</label>
+							<input type="text" name="Postcode" placeholder="bijv: 1234HS" id="post"> 
+							<label for="plaats">4.Plaats</label>
+							<input type="text" name="Plaats" id="plaats"> 
+							<label for="sector">5.Sector</label>
+							<input type="text" name="Sector" id="sector"> 
+							<label for="core">6. Core Business</label>
+							<input type="text" name="Core" id="core"> 
+						
+						 Opmerkingen 
+							<textarea name="textarea"></textarea> 
+						 
+						
+						 
+			</fieldset>
+
+
+
+			<input type="submit" name="submit" value="Submit">
+	</body>
+
+</html>

@@ -1,0 +1,151 @@
+ * {
+ 	box-sizing:border-box;
+	 
+ }
+html {
+	background-color: #acc7dc;
+	margin: auto;
+}
+
+body {
+	width: 59em;
+	margin: 1.25em auto 1.25em auto; 
+	border: 0.125px rgba(0,0,0,0.4); 
+	background-color: #d6dde3;
+	border-radius: 6.25em 2em;
+	box-shadow: 0 0.25em 0.313em 0;
+	padding: 3.125em;
+}
+
+body > aside > section {
+	 display: flex;
+	 flex-direction: row;
+	 flex-wrap: nowrap;
+	 margin:-0.5em;
+ }
+
+aside > section > article{
+ 	flex:auto; 
+	background:rgb(204,204,204);
+	margin:0.5em;
+	padding:0 0.5em;
+ }
+
+aside > section > article > footer{
+	order: -1;
+}
+
+header {
+	border: 1em;
+	position: static;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+
+body > header > form {
+	text-align: center;
+}
+body > header  a {
+	text-align: center; 
+}
+
+body > header > section {
+	border-radius: 50px / 100px;
+	background-color: green;
+}
+
+header > h1 {
+	text-transform: uppercase; 
+	text-shadow: 13px 14px 5px rgba(156, 150, 255, 1);
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+header > p {
+	text-align: center;
+}
+
+header  nav  ul  li {
+	display: inline-block;
+	text-align: center;
+}
+
+header  nav {
+	background-color: pink ;
+	color: black;
+	border-radius: 2px 14px;
+	padding: 2px;
+	text-decoration: none; 
+	text-align: center;
+	
+}
+
+header > section {
+	text-align: center;
+}
+
+img:nth-of-type(1){
+	transition: transform 0.5s ease-out;
+}
+img:nth-of-type(1):hover{
+	transform: scale(1.25, 1.25);
+}
+
+img:nth-of-type(2){
+	transition: transform 0.5s ease-out;
+}
+
+img:nth-of-type(2):hover{
+	transform: scale(1.25, 1.25);
+}
+
+img:nth-of-type(3){
+	transition: transform 0.5s ease-out;
+}	
+
+img:nth-of-type(3):hover{
+	transform: scale(1.25, 1.25);
+}
+	
+
+a:hover {
+	text-decoration: none;
+	color: black; 
+	background: white;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black; 
+}
+
+a:link {
+	text-decoration: none;
+	color: black; 
+	background: white;
+	padding: 5px;
+}
+
+a:active {
+	text-decoration: none;
+	color: black; 
+	background: white;
+}
+
+header > nav > form {
+	text-align: right; 
+}
+
+main > article > section {
+	background: white;
+}
+
+@media (max-width: 974px) {
+    body {
+        background: purple; 
+    }
+    header > h1 {
+        color: white; 
+    }
+    
+}
